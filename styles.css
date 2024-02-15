@@ -621,7 +621,58 @@ section {
 
 .service-card6 {
   grid-area: card6;
+  z-index: 60;
 }
+
+@media only screen and (max-width: 768px) {
+	.services-section {
+	  grid-template-columns: repeat(9, 1fr);
+	  grid-template-rows: repeat(13, 1fr); /* Creates 13 rows */
+	  grid-template-areas:
+		"blank1 blank1 blank1 card1 card1 card1 blank2 blank2 blank2"
+		"blank1 blank1 blank1 card1 card1 card1 blank2 blank2 blank2"
+		"cleft light1 light1 card1 card1 card1 light2 light2 light2"
+		"cleft  main1  main1  card2 card2 card2 main9  main9  main9 "
+		"cleft  main1  main1  card2 card2 card2 main9  main9  main9 "
+		"cleft  main2  main2  card2 card2 card2 main9  main9  main9 "
+		"cleft  main3  main3  card3 card3 card3 maina  maina  maina "
+		"cleft  main4  main4  card3 card3 card3 maina  maina  maina "
+		"main5  main5  main5  card3 card3 card3 mainb  mainb  mainb "
+		"main6  main6  main6  card4 card4 card4 mainc  mainc  mainc "
+		"light5 light5 light5 card4 card4 card4 light7 light7 light7"
+		"blank5 blank5 blank5 card5 card5 card5 blank6 blank6 blank6"
+		"blank7 blank7 blank7 card6 card6 card6 blank8 blank8 blank8";
+	}
+
+	/* Hide the header and text */
+	.service-header,
+	.service-main,
+	.service-button {
+	  display: none;
+	}
+
+	/* Adjust card styles to fit the new grid */
+	.service-card {
+	  /* Adjustments to the card sizes or any additional styles as needed */
+	  height: auto; /* Allow cards to expand to content */
+	  width: 100%; /* Cards should take up full width */
+	}
+
+	/* Specific adjustments to each card's grid area */
+	.service-card1 { grid-area: card1; }
+	.service-card2 { grid-area: card2; }
+	.service-card3 { grid-area: card3; }
+	.service-card4 { grid-area: card4; }
+	.service-card5 { grid-area: card5; }
+	.service-card6 { grid-area: card6; } /* Add this if there is a sixth card */
+
+	/* Ensure the decorative elements (blank and light areas) are still displayed */
+	.blank1, .blank2, .blank3, .blank4, .blank5, .blank6, .blank7, .blank8 { /* Styles here */ }
+	.light1, .light2, .light3, .light4, .light5, .light6, .light7, .light8 { /* Styles here */ }
+	.cleft, .cright { /* Styles here */ }
+  }
+
+
 
 /* --------------Lieu Section-------------- */
 .lieu-section {
