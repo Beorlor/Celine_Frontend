@@ -631,17 +631,17 @@ section {
 	  grid-template-areas:
 		"blank1 blank1 card1  card1 blank2 blank2 blank2 blank2 blank2"
 		"blank3 light1 card1  card1 light2 light2 light2 light2 blank4"
-		"cleft  main1 card1  card1 main2 card4 card4 light2 cright"
-		"cleft  main1  main1  main1 main2 card4 card4  main9  cright"
-		"cleft  main1  card2  card2 main2 card4 card4  main9  cright"
-		"cleft  main1  card2  card2 main2 blank blank  main9  cright"
-		"cleft  main1  card2  card2 main2 card5 card5  maina  cright"
-		"cleft  main1  main4  main4 main2 card5 card5  maina  cright"
-		"cleft  main1  card3  card3 main2 card5 card5  mainb  cright"
-		"cleft  main1  card3  card3 main2 blank blank  mainc  cright"
-		"cleft  main1 card3  card3 main2 card6 card6 light7  cright"
-		"blank5 light3 blank5 card5 light card6 card6 blank6  blank6"
-		"blank7 blank7 blank7 blank7 blank card6 card6 blank8 blank8";
+		"cleft  main1 card1  card1  main2 card4 card4 light2 cright"
+		"cleft  main1  main4  main4 main2 card4 card4  main3  cright"
+		"cleft  main1  card2  card2 main2 card4 card4  main3  cright"
+		"cleft  main1  card2  card2 main2 blank blank  main3  cright"
+		"cleft  main1  card2  card2 main2 card5 card5  main3  cright"
+		"cleft  main1  main5  main5 main2 card5 card5  main3  cright"
+		"cleft  main1  card3  card3 main2 card5 card5  main3  cright"
+		"cleft  main1  card3  card3 main2 blank blank  main3  cright"
+		"cleft  main1 card3  card3  main2 card6 card6  main3 cright"
+		"blank5 light3 light3 light3 light3 card6 card6 light4  blank6"
+		"blank7 blank7 blank7 blank7 blank7 card6 card6 blank8 blank8";
 	}
 
 	/* Hide the header and text */
