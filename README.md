@@ -1,6 +1,6 @@
 # Celine_Frontend
 
-finir commentaire (chosir commentaire sur google)
+finir commentaire
 Carte section
 
 service en responsive
